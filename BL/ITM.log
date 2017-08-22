@@ -1,0 +1,6 @@
+External Reset occurred
+RCC_FLAG_SFTRST occurred
+RCC_FLAG_HSERDY occurred
+RCC_FLAG_PLLRDY occurred
+RCC_FLAG_HSIRDY occurred
+art BL main

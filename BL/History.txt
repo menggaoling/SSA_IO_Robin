@@ -1,0 +1,73 @@
+*-------------------------------------------------------------------------------
+*    V0.4.0             				                     2014/08/19 15:00
+*-------------------------------------------------------------------------------
+Base  : V0.4.0
+Mark  : MikeTsai
+Issue : 1. Git repository establish with MCU code base initialization
+Cause : None
+Sol   : None
+Notes : None
+File  : 
+*-------------------------------------------------------------------------------
+*    V0.4.1				                	                 2014/08/29 16:00
+*-------------------------------------------------------------------------------
+Base  : V0.4.0
+Mark  : MikeTsai
+Issue : 1. Redefine version control number (majoy.minor.build)
+		2. Fix keypad is not workable with HR connect.
+		3. Add BT function files for BT-sink function.
+Cause : None
+Sol   : None
+Notes : None
+File  : 
+		2*	./Soft/Beep.c
+		2*	./Soft/Digital.c
+		2*	./Soft/MyType.c
+		2*	./Soft/NewSPI.c
+		2*	./Soft/SSTreadmill.c
+		2*	./Soft/UART.c
+		2*	./Soft/heart.c
+		2*	./Soft/inc/NewSPI.H
+		2*	./Soft/keyboard.c
+		2*	./Soft/main.c
+		2*	./Soft/stm32f10x_it.c
+		2*	./Soft/stopmode.c
+		3+ 	./Soft/BT.c
+		3+ 	./Soft/inc/BT.h
+*-------------------------------------------------------------------------------
+*    V0.4.2				                	                 2014/10/22 16:00
+*-------------------------------------------------------------------------------
+Base  : V0.4.1
+Mark  : MikeTsai
+Issue : 1. Optimize BT sink function.
+		2. Add RFID function.		
+		
+Cause : None
+Sol   : None
+Notes : None
+File  : 
+					
+		1,2*	./AP/Soft/NewSPI.c			
+		1,2*	./AP/Soft/inc/NewSPI.H
+		2+		./AP/Soft/RFID.c
+		2+		./AP/Soft/inc/RFID.h
+*-------------------------------------------------------------------------------
+*    V0.4.3				                	                 2014/11/07 16:00
+*-------------------------------------------------------------------------------
+Base  : V0.4.2
+Mark  : MikeTsai
+Issue : 1. Optimize RFID function.
+		2. Reboot Soc after detecting compound key.
+		
+Cause : None
+Sol   : None
+Notes : None
+File  : 
+					
+			1*	./AP/Soft/NewSPI.c
+			1*	./AP/Soft/RFID.c
+			1*	./AP/Soft/inc/NewSPI.H
+			1*	./AP/Soft/inc/RFID.h
+			1*	./AP/Soft/main.c
+			2*	./AP/Soft/keyboard.c		
+		
